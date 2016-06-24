@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MonstaChase" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zmM-Uk-rc2" customClass="GameView" customModule="MonstaChase" customModuleProvider="target">
+                                <rect key="frame" x="448" y="220" width="1024" height="640"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" updatesFrequently="YES" allowsDirectInteraction="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1024" placeholder="YES" id="WNf-lg-hRP"/>
+                                    <constraint firstAttribute="height" constant="640" placeholder="YES" id="y9H-FM-HcM"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="lostGames" destination="Woz-yx-dgr" id="AO3-iF-TGK"/>
+                                    <outlet property="wonGames" destination="xrt-0T-uJF" id="9xc-Mt-bWp"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Won" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52s-3z-DNi">
+                                <rect key="frame" x="1620" y="303" width="57" height="35"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrt-0T-uJF">
+                                <rect key="frame" x="1497" y="220" width="180" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="h5t-rt-CC5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lost" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65i-ij-QUH">
+                                <rect key="frame" x="1628" y="445" width="49" height="35"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Woz-yx-dgr">
+                                <rect key="frame" x="1497" y="362" width="180" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="5gz-E5-Dfn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Woz-yx-dgr" firstAttribute="trailing" secondItem="xrt-0T-uJF" secondAttribute="trailing" id="B6q-3m-C6n"/>
+                            <constraint firstItem="Woz-yx-dgr" firstAttribute="top" secondItem="xrt-0T-uJF" secondAttribute="bottom" constant="51" id="MQD-cA-Nbu"/>
+                            <constraint firstItem="xrt-0T-uJF" firstAttribute="top" secondItem="zmM-Uk-rc2" secondAttribute="top" id="Mzw-4X-cLV"/>
+                            <constraint firstItem="xrt-0T-uJF" firstAttribute="leading" secondItem="zmM-Uk-rc2" secondAttribute="trailing" constant="25" id="Ne3-P0-Ll6"/>
+                            <constraint firstItem="zmM-Uk-rc2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PEx-fu-Wlk"/>
+                            <constraint firstItem="zmM-Uk-rc2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RX8-WO-kA8"/>
+                            <constraint firstItem="Woz-yx-dgr" firstAttribute="leading" secondItem="xrt-0T-uJF" secondAttribute="leading" id="Rcp-5K-tov"/>
+                            <constraint firstItem="65i-ij-QUH" firstAttribute="trailing" secondItem="Woz-yx-dgr" secondAttribute="trailing" id="WCK-UC-95r"/>
+                            <constraint firstItem="65i-ij-QUH" firstAttribute="top" secondItem="Woz-yx-dgr" secondAttribute="bottom" constant="-8" id="i5O-QL-Nem"/>
+                            <constraint firstItem="52s-3z-DNi" firstAttribute="top" secondItem="xrt-0T-uJF" secondAttribute="bottom" constant="-8" id="ken-Qu-6I2"/>
+                            <constraint firstItem="52s-3z-DNi" firstAttribute="trailing" secondItem="xrt-0T-uJF" secondAttribute="trailing" id="vAI-5s-wd6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gameView" destination="zmM-Uk-rc2" id="0t7-oj-XwK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="363" y="271"/>
+        </scene>
+    </scenes>
+</document>

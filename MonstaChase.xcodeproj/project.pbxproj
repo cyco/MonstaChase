@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830DF9391D1C859900CEB7D5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830DF9381D1C859900CEB7D5 /* GameView.swift */; };
+		8346C4831D1C6550007DBFA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346C4821D1C6550007DBFA1 /* AppDelegate.swift */; };
+		8346C4851D1C6550007DBFA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346C4841D1C6550007DBFA1 /* ViewController.swift */; };
+		8346C4881D1C6550007DBFA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8346C4861D1C6550007DBFA1 /* Main.storyboard */; };
+		8346C48A1D1C6550007DBFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8346C4891D1C6550007DBFA1 /* Assets.xcassets */; };
+		8346C4921D1C6565007DBFA1 /* BoardGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346C4911D1C6565007DBFA1 /* BoardGenerator.swift */; };
+		8346C4941D1C6AEF007DBFA1 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346C4931D1C6AEF007DBFA1 /* Piece.swift */; };
+		8346C4961D1C6AF5007DBFA1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346C4951D1C6AF5007DBFA1 /* Character.swift */; };
+		8346C4981D1C6AFA007DBFA1 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346C4971D1C6AFA007DBFA1 /* Direction.swift */; };
+		8346C49A1D1C6B00007DBFA1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346C4991D1C6B00007DBFA1 /* Game.swift */; };
+		8346C49C1D1C6B1C007DBFA1 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346C49B1D1C6B1C007DBFA1 /* Hero.swift */; };
+		8346C49E1D1C6B21007DBFA1 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346C49D1D1C6B21007DBFA1 /* Enemy.swift */; };
+		83855F241D1D9AEC00E4DF73 /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83855F231D1D9AEC00E4DF73 /* UIImage+Rotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		830DF9381D1C859900CEB7D5 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8346C47F1D1C654F007DBFA1 /* MonstaChase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonstaChase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8346C4821D1C6550007DBFA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8346C4841D1C6550007DBFA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8346C4871D1C6550007DBFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8346C4891D1C6550007DBFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8346C48B1D1C6550007DBFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8346C4911D1C6565007DBFA1 /* BoardGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardGenerator.swift; sourceTree = "<group>"; };
+		8346C4931D1C6AEF007DBFA1 /* Piece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		8346C4951D1C6AF5007DBFA1 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		8346C4971D1C6AFA007DBFA1 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		8346C4991D1C6B00007DBFA1 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		8346C49B1D1C6B1C007DBFA1 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		8346C49D1D1C6B21007DBFA1 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		83855F231D1D9AEC00E4DF73 /* UIImage+Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Rotation.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8346C47C1D1C654F007DBFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8346C4761D1C654F007DBFA1 = {
+			isa = PBXGroup;
+			children = (
+				8346C4811D1C654F007DBFA1 /* MonstaChase */,
+				8346C4801D1C654F007DBFA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8346C4801D1C654F007DBFA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8346C47F1D1C654F007DBFA1 /* MonstaChase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8346C4811D1C654F007DBFA1 /* MonstaChase */ = {
+			isa = PBXGroup;
+			children = (
+				8346C4821D1C6550007DBFA1 /* AppDelegate.swift */,
+				8346C4841D1C6550007DBFA1 /* ViewController.swift */,
+				8346C4861D1C6550007DBFA1 /* Main.storyboard */,
+				8346C4891D1C6550007DBFA1 /* Assets.xcassets */,
+				8346C48B1D1C6550007DBFA1 /* Info.plist */,
+				8346C4911D1C6565007DBFA1 /* BoardGenerator.swift */,
+				8346C4931D1C6AEF007DBFA1 /* Piece.swift */,
+				8346C4951D1C6AF5007DBFA1 /* Character.swift */,
+				8346C4971D1C6AFA007DBFA1 /* Direction.swift */,
+				8346C4991D1C6B00007DBFA1 /* Game.swift */,
+				8346C49B1D1C6B1C007DBFA1 /* Hero.swift */,
+				8346C49D1D1C6B21007DBFA1 /* Enemy.swift */,
+				830DF9381D1C859900CEB7D5 /* GameView.swift */,
+				83855F231D1D9AEC00E4DF73 /* UIImage+Rotation.swift */,
+			);
+			path = MonstaChase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8346C47E1D1C654F007DBFA1 /* MonstaChase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8346C48E1D1C6550007DBFA1 /* Build configuration list for PBXNativeTarget "MonstaChase" */;
+			buildPhases = (
+				8346C47B1D1C654F007DBFA1 /* Sources */,
+				8346C47C1D1C654F007DBFA1 /* Frameworks */,
+				8346C47D1D1C654F007DBFA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonstaChase;
+			productName = MonstaChase;
+			productReference = 8346C47F1D1C654F007DBFA1 /* MonstaChase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8346C4771D1C654F007DBFA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chris;
+				TargetAttributes = {
+					8346C47E1D1C654F007DBFA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8346C47A1D1C654F007DBFA1 /* Build configuration list for PBXProject "MonstaChase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8346C4761D1C654F007DBFA1;
+			productRefGroup = 8346C4801D1C654F007DBFA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8346C47E1D1C654F007DBFA1 /* MonstaChase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8346C47D1D1C654F007DBFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8346C48A1D1C6550007DBFA1 /* Assets.xcassets in Resources */,
+				8346C4881D1C6550007DBFA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8346C47B1D1C654F007DBFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83855F241D1D9AEC00E4DF73 /* UIImage+Rotation.swift in Sources */,
+				8346C4941D1C6AEF007DBFA1 /* Piece.swift in Sources */,
+				8346C4851D1C6550007DBFA1 /* ViewController.swift in Sources */,
+				8346C49A1D1C6B00007DBFA1 /* Game.swift in Sources */,
+				8346C49C1D1C6B1C007DBFA1 /* Hero.swift in Sources */,
+				830DF9391D1C859900CEB7D5 /* GameView.swift in Sources */,
+				8346C4961D1C6AF5007DBFA1 /* Character.swift in Sources */,
+				8346C49E1D1C6B21007DBFA1 /* Enemy.swift in Sources */,
+				8346C4831D1C6550007DBFA1 /* AppDelegate.swift in Sources */,
+				8346C4921D1C6565007DBFA1 /* BoardGenerator.swift in Sources */,
+				8346C4981D1C6AFA007DBFA1 /* Direction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8346C4861D1C6550007DBFA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8346C4871D1C6550007DBFA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8346C48C1D1C6550007DBFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		8346C48D1D1C6550007DBFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8346C48F1D1C6550007DBFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MonstaChase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.ccl.MonstaChase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8346C4901D1C6550007DBFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MonstaChase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.ccl.MonstaChase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8346C47A1D1C654F007DBFA1 /* Build configuration list for PBXProject "MonstaChase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8346C48C1D1C6550007DBFA1 /* Debug */,
+				8346C48D1D1C6550007DBFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8346C48E1D1C6550007DBFA1 /* Build configuration list for PBXNativeTarget "MonstaChase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8346C48F1D1C6550007DBFA1 /* Debug */,
+				8346C4901D1C6550007DBFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8346C4771D1C654F007DBFA1 /* Project object */;
+}
